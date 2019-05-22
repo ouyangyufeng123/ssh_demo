@@ -5,6 +5,7 @@ import com.ssh.model.Student;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import javax.transaction.Transactional;
 import java.util.List;
 
 /**
@@ -23,10 +24,12 @@ public class StudentService {
     }
 
 
+    @Transactional(rollbackOn = Exception.class)
     public void addOrUpdStudent(Student stu) {
        studentDao.save(stu);
     }
 
+    @Transactional(rollbackOn = Exception.class)
     public void deleteStudent(Long objId) {
         studentDao.deleteStudent(objId);
     }

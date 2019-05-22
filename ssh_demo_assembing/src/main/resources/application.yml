@@ -30,7 +30,7 @@ spring:
 
 
 #log4j2
-#logging:
-#  config: classpath:log4j2.xml
-#  #打印sql语句日志
-#  level.com.ssm.mapper: debug
+logging:
+  config: classpath:log4j2.xml
+  #打印sql语句日志
+  level.com.ssm.mapper: debug

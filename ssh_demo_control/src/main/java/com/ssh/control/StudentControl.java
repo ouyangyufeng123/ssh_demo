@@ -55,9 +55,8 @@ public class StudentControl {
      * @return
      */
     @ApiOperation(value = "添加学生信息")
-    @PostMapping("insertStudent")
+    @PostMapping("/insertStudent")
     public BaseResponse insertStudent(@RequestBody Student stu) {
-        System.out.println(stu);
         stuService.addOrUpdStudent(stu);
         return new BaseResponse();
     }
@@ -71,7 +70,7 @@ public class StudentControl {
     @ApiOperation(value = "删除学生信息")
     @ApiImplicitParams({
             @ApiImplicitParam(name = "objId", value = "学生id", required = true, dataType = "Long", paramType = "query")})
-    @DeleteMapping("deleteStudent")
+    @DeleteMapping("/deleteStudent")
     public BaseResponse deleteStudent(Long objId) {
         stuService.deleteStudent(objId);
         return new BaseResponse();
@@ -84,7 +83,7 @@ public class StudentControl {
      * @return
      */
     @ApiOperation(value = "修改学生信息")
-    @PutMapping("updateStudent")
+    @PutMapping("/updateStudent")
     public BaseResponse updateStudent(@RequestBody Student stu) {
         stuService.addOrUpdStudent(stu);
         return new BaseResponse();
