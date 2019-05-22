@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/ssh_demo.iml" filepath="$PROJECT_DIR$/ssh_demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ssh_demo_assembing/ssh_demo_assembing.iml" filepath="$PROJECT_DIR$/ssh_demo_assembing/ssh_demo_assembing.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ssh_demo_common/ssh_demo_common.iml" filepath="$PROJECT_DIR$/ssh_demo_common/ssh_demo_common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ssh_demo_control/ssh_demo_control.iml" filepath="$PROJECT_DIR$/ssh_demo_control/ssh_demo_control.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ssh_demo_dao/ssh_demo_dao.iml" filepath="$PROJECT_DIR$/ssh_demo_dao/ssh_demo_dao.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ssh_demo_error/ssh_demo_error.iml" filepath="$PROJECT_DIR$/ssh_demo_error/ssh_demo_error.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ssh_demo_model/ssh_demo_model.iml" filepath="$PROJECT_DIR$/ssh_demo_model/ssh_demo_model.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ssh_demo_service/ssh_demo_service.iml" filepath="$PROJECT_DIR$/ssh_demo_service/ssh_demo_service.iml" />
+    </modules>
+  </component>
+</project>
